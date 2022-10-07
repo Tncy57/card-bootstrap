@@ -1,23 +1,17 @@
 @media screen and (min-width: 1024px) {
-  body {
-    height: 100vh;
-  }
   .container {
-    width: 40%;
-    height: 57%;
-  }
-  .row {
-    height: 100%;
+    width: 60%;
+    height: auto;
   }
   .part1 {
-    height: 100%;
+    height: auto;
     border-radius: 10px 0 0 10px;
   }
   .part2 {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-left: 40px;
     padding-right: 35px;
-    height: 100%;
+    height: auto;
     border-radius: 0 10px 10px 0;
   }
   .desktop-img {
@@ -32,4 +26,12 @@
   button:hover {
     background-color: hsl(161, 45%, 19%);
   }
+}
+
+@media screen and (min-width: 1535px) {
+  .container {
+    width: 40%;
+    height: auto;
+  }
+  
 }
